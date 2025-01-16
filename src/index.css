@@ -479,7 +479,7 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
   padding: 5px 0;
   position: absolute;
   top: 70%;
-  left: 20px;
+  left: 40px;
   color: #dbd9cdec;
   overflow: hidden;
 
@@ -494,6 +494,7 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
   display: flex;
   justify-content: space-between;
   width: 280px;
+  position: relative;
   
 
 }
@@ -659,6 +660,16 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
     font-size: 14px;
 
   }
+  .iconscard{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    position: relative;
+    
+  
+  }
+
+
   .moviepagecard{
     position: relative;
     animation: appear linear ;
@@ -666,6 +677,9 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
     animation-range: entry 0% cover 40%;
   
   
+  }
+  .iconscard link{
+    left: 20px;
   }
   .jissimge{
     height: 70px;
