@@ -479,7 +479,7 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
   padding: 5px 0;
   position: absolute;
   top: 70%;
-  left: 40px;
+  left: 30px;
   color: #dbd9cdec;
   overflow: hidden;
 
@@ -493,7 +493,7 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
 .iconscard{
   display: flex;
   justify-content: space-between;
-  width: 280px;
+  width: 250px;
   position: relative;
   
 
@@ -618,9 +618,11 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
   margin-bottom: 20px;
 
 }
-.iconscard{
-  flex-wrap: wrap;
-}
+
+
+
+
+
 
 @keyframes appear{
   from{
@@ -660,10 +662,19 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
     font-size: 14px;
 
   }
+  .mainmoviespage{
+padding: 0 10px;  
+}
+
+.seriespage{
+  padding: 0 10px;  
+
+
+}
   .iconscard{
     display: flex;
     justify-content: space-between;
-    width: 320px;
+    width: 340px;
     position: relative;
     
   
@@ -751,7 +762,7 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
 
   .imgcontents {
     position: absolute;
-    top: 40%;
+    top: 55%;
     left: 20px;
     right: 20px;
     color: #A5A089;
@@ -764,13 +775,13 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
   }
 
   .twocardbtn {
-    padding: 2px;
+    padding: 4px;
     width: 60px;
     background-color: transparent;
     border-radius: 5px;
     color: #A5A089;
     border: 1px solid #A5A089;
-    font-size: 8px;
+    font-size: 10px;
     transition: 0.3s ease-in-out;
 
   }
@@ -835,7 +846,7 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
     padding-bottom: 1px;
   }
   .footer p{
-    font-size: 7px;
+    font-size: 13px;
   }
   .footersub a{
     font-size: 9px;
