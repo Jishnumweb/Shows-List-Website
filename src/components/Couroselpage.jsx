@@ -25,7 +25,7 @@ const AutoMoveCarousel = () => {
           </div>
           <div className="jisimagescontent">
             <h1>DARK</h1>
-            <p>"Dark" is a brilliant, mind-bending series that combines deep philosophical themes with an intricately woven, time-twisting narrative. It’s a show that requires viewers to pay attention to every detail, and it rewards those who engage with its complex world-building. If you're a fan of time travel, mystery, and complex storytelling, "Dark" is a must-watch. <br /> -dark</p>
+            <p className="jisjisp">"Dark" is a brilliant, mind-bending series that combines deep philosophical themes with an intricately woven, time-twisting narrative. It’s a show that requires viewers to pay attention to every detail, and it rewards those who engage with its complex world-building. If you're a fan of time travel, mystery, and complex storytelling, "Dark" is a must-watch. <br /> -dark</p>
 
           </div>
 

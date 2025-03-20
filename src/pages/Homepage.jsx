@@ -13,7 +13,7 @@ import Topmovies from '../components/Topmovies'
 function Homepage() {
   return (
     <>
-      <div className='crclmains'>
+      <div className='crclmains '>
         <Couroselpage />
       </div>
 

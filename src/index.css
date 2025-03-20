@@ -665,6 +665,9 @@ background-color: rgba(255, 255, 255, 0.682);  /* Scale from left to right */
   .mainmoviespage{
 padding: 0 10px;  
 }
+.jisjisp  {
+  font-size: 2px;
+}
 
 .seriespage{
   padding: 0 10px;  
@@ -854,6 +857,7 @@ padding: 0 10px;
   .cardscroll img{
     object-fit: cover;
   }
+ 
  
 
 
